@@ -1,0 +1,95 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Nuntio',sans-serif;
+
+}
+section{
+    position: relative;
+    width: 100%;
+    min-height: 4vh;
+    padding: 20px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.header
+{
+    position: fixed;
+    color: black;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+	background: #fcf4a3;
+    line-height: 70px;
+    padding-left: 30px;
+    font-weight: bold;
+}
+a,a:hover
+{
+    text-decoration: none!important;
+    color: black;
+}
+.logout
+{
+    float: right;
+    padding-right: 30px; 
+}
+.logout a:hover
+{
+    background: #de3163;
+	color: #fff;
+	border-radius: 30px;
+}
+ul
+{
+    background-color: #fffdd0;
+    width: 16%;
+    height: 100%;
+    position: fixed;
+    padding-top: 5%;
+    text-align: center;
+}
+ul li
+{
+    list-style: none;
+    padding-bottom: 30px;
+    font-weight: bold;
+    margin: 0 10px;
+}
+ul li a
+{
+    color: #000;
+    font-weight: bold;
+}
+ul li a:hover
+{
+    background: #de3163;
+	color: #fff;
+	border-radius: 30px;
+}
+.content
+{
+    margin-left: 20%;
+    margin-top: 5%;
+}
+.btn
+		{
+			padding: 5px 10px;
+			background: #fff;
+			border-color: #de3163;
+			border-radius: 30px;
+            transition: .5s;
+            color: black;
+            
+		}
+.btn:hover
+{
+	background: #de3163;
+	border-radius: 30px;
+}

@@ -1,0 +1,15 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	background: #fcf4a3;
+	font-family: 'Nuntio',sans-serif;
+}
+.header{
+	margin-top: 100px;
+	letter-spacing: 10px;
+}
+.content{
+	margin-top: 10px;
+	justify-content: center;
+}
